@@ -1,0 +1,23 @@
+/*body
+{
+  background: #333;
+}*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  font-family: Palatino Linotype;
+  font-style: italic;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style-type: none;   /* remove bullet points */
+}
